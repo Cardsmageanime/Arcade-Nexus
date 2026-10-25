@@ -15,8 +15,8 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 | Oct–Nov 2026 | v0.1 2D foundation | Godot 4 project, side-scrolling room, avatar movement and camera | Planned |
 | Nov–Dec 2026 | v0.1 cabinet interaction | Interactive cabinets, local library and safe game launching | Planned |
 | Dec 2026–Jan 2027 | v0.2 2D expansion | Emulator configuration, game collections, artwork and favorites | Planned |
-| Q1–Q2 2027 | v0.3 2D world | Multiple themed arcade rooms, controller navigation, customization | Planned |
-| Q3 2027 | v0.4 platform support and My Games Lobby | Steam/Epic/GOG and emulator library discovery, Windows support and local library testing | Planned |
+| Q1–Q2 2027 | v0.3 2D world and museum prototype | Multiple themed rooms, controller navigation, customization and NES-first history exhibits | Planned |
+| Q3 2027 | My Games Lobby and museum expansion | Library discovery, Windows testing, chronological console halls and sourced top-selling game displays | Planned |
 | Q4 2027 | Online lobby and library sync prototype | Account security, public/private rooms, invitations, presence and opt-in game library metadata sync | Planned |
 | Q1 2028 | 3D prototype | Third-person avatar and walkable 3D arcade room | Planned |
 | Q2 2028 | 3D interaction | Interactive 3D cabinets, navigation and controller support | Planned |
@@ -24,6 +24,19 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 | Q4 2028 | 3D release candidate | Performance, accessibility, packaging and hardware testing | Planned |
 
 **Release policy:** 2D remains available when 3D is introduced. The 3D release proceeds only after validation. These milestones supersede the earlier Python/PySide6 desktop-only schedule and January 2027 v1.0 assumption.
+
+## Gaming History Museum (planned)
+
+- A walkable, side-scrolling museum starting with the **NES/Famicom era**, progressing chronologically through console generations to modern gaming; preserve accurate regional launch dates.
+- Each console exhibit: manufacturers and developers, hardware specifications, development history, announcements, regional debuts, major milestones and cultural impact.
+- Each featured game: release date by region, credited creators/studios, development history, debut, platform versions and legacy.
+- Show **top 10 best-selling games per console** when credible comparable data exists; cite sources, define worldwide versus regional sales, distinguish shipped versus sold-through figures and label estimates/unknowns. Never fabricate a complete top ten.
+- Museum data must be maintained as structured, sourced records; accessible exhibit panels, search and chronological timeline.
+- Historical exhibits are viewable without owning games. Optional **Play** actions only appear for locally installed, legally accessible games with compatible launch configuration.
+- Begin with an NES hall and a small set of verified exhibits, then expand to Sega, Nintendo, Sony, Microsoft, handhelds, PC and other systems; future 3D mode should reuse the same exhibit database.
+- Do not imply manufacturer endorsement; use only assets with appropriate rights.
+
+**Status:** Museum concept and requirements recorded; exhibit database and game scenes are not yet implemented.
 
 ## My Games Lobby and reserved libraries (planned)
 

@@ -6,6 +6,43 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 
 **Join the project, suggest features through GitHub Issues, and help build the ultimate gaming hub!**
 
+
+## Arcade Nexus Concept Art Gallery
+
+Original concept illustrations for planned features. These are design references, not screenshots of working features.
+
+### 2D Virtual Arcade
+
+![2D Virtual Arcade concept illustration](assets/concepts/2d-arcade.svg)
+
+### 3D Virtual World
+
+![3D Virtual World concept illustration](assets/concepts/3d-world.svg)
+
+### Gaming History Museum
+
+![Gaming History Museum concept illustration](assets/concepts/gaming-museum.svg)
+
+### Online Arcade Lobbies
+
+![Online Arcade Lobbies concept illustration](assets/concepts/online-lobbies.svg)
+
+### My Games Lobby
+
+![My Games Lobby concept illustration](assets/concepts/my-games.svg)
+
+### Customizable Avatars
+
+![Customizable Avatars concept illustration](assets/concepts/avatars.svg)
+
+### Home Space
+
+![Home Space concept illustration](assets/concepts/home-space.svg)
+
+### Multilingual Support
+
+![Multilingual Support concept illustration](assets/concepts/languages.svg)
+
 ## Development roadmap (2026–2028)
 
 **Planning baseline:** October 25, 2026 (America/Chicago). All dates are targets, not guaranteed releases. Only verified commits and tests count as completed work.

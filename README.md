@@ -41,7 +41,7 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 - Place and rearrange furniture, lighting, wall/floor themes, arcade cabinets and game-collection displays; support saving and restoring layouts.
 - Show a player's chosen games and collections as metadata/artwork displays, subject to privacy settings and asset permissions. Visitors cannot access the owner's local game files or platform credentials.
 - Invite friends for social visits, shared hangouts and compatible online matches. Actual multiplayer gameplay remains dependent on supported game/emulator integrations.
-- **Private by default**; optional friends-only, invite-only or public discovery settings with access revocation, block/report tools and owner moderation.
+- **Friends-only by default**: only mutually approved friends may visit. Owners can change to private (only owner), invite-only, or public discovery. Provide access revocation, block/report tools, owner moderation, and a clear privacy choice during onboarding. Never automatically expose a new home to strangers.
 - Store home layouts locally and support opt-in authenticated sync; protect account data and validate user-created content.
 - Target Q3 2028 for a basic home prototype and Q4 2028 for customization, privacy and multiplayer visitor testing. These are estimates, not release commitments.
 

@@ -16,14 +16,25 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 | Nov–Dec 2026 | v0.1 cabinet interaction | Interactive cabinets, local library and safe game launching | Planned |
 | Dec 2026–Jan 2027 | v0.2 2D expansion | Emulator configuration, game collections, artwork and favorites | Planned |
 | Q1–Q2 2027 | v0.3 2D world | Multiple themed arcade rooms, controller navigation, customization | Planned |
-| Q3 2027 | v0.4 platform support | PC store integration research, Windows support and stability testing | Planned |
-| Q4 2027 | Online lobby prototype | Account security, public/private rooms, invitations and basic presence | Planned |
+| Q3 2027 | v0.4 platform support and My Games Lobby | Steam/Epic/GOG and emulator library discovery, Windows support and local library testing | Planned |
+| Q4 2027 | Online lobby and library sync prototype | Account security, public/private rooms, invitations, presence and opt-in game library metadata sync | Planned |
 | Q1 2028 | 3D prototype | Third-person avatar and walkable 3D arcade room | Planned |
 | Q2 2028 | 3D interaction | Interactive 3D cabinets, navigation and controller support | Planned |
 | Q3 2028 | Shared 2D/3D library and lobbies | Game library, launch functionality, settings and compatible online lobby access in both modes | Planned |
 | Q4 2028 | 3D release candidate | Performance, accessibility, packaging and hardware testing | Planned |
 
 **Release policy:** 2D remains available when 3D is introduced. The 3D release proceeds only after validation. These milestones supersede the earlier Python/PySide6 desktop-only schedule and January 2027 v1.0 assumption.
+
+## My Games Lobby and reserved libraries (planned)
+
+- Dedicated in-world **My Games Lobby** to browse, search, favorite and launch games from the player's collections.
+- Import or discover local installations and library metadata from supported Steam, Epic Games, GOG and configured emulator folders, using supported integrations and user permission.
+- Save the user's **library catalog metadata** to their Arcade Nexus account only with explicit opt-in, enabling restoration/sync across devices; keep a usable offline local catalog.
+- Sync does **not** upload commercial game binaries, copyrighted ROMs, third-party credentials, license entitlements or save files by default. Game installations and platform ownership checks remain subject to their original services.
+- Include privacy controls, export/delete options, conflict resolution and secure authenticated sync; local paths are device-specific and must be remapped on another computer.
+- Reserve room for future cloud-save integrations only when supported and authorized; not part of the initial sync promise.
+
+**Status:** Requirements recorded; no import adapters, cloud storage or account sync implemented or tested.
 
 ## Planned online multiplayer lobbies
 
@@ -45,7 +56,7 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 
 | Date (America/Chicago) | Verified update |
 | --- | --- |
-| 2026-10-25 | Roadmap revised for Godot-based 2D side-scrolling virtual arcade and planned 2028 3D upgrade; implementation remains planned. Online multiplayer lobby features added to the planned roadmap; no online services implemented. |
+| 2026-10-25 | Roadmap revised for Godot-based 2D side-scrolling virtual arcade and planned 2028 3D upgrade; implementation remains planned. Online multiplayer lobbies and My Games Lobby with local library imports and optional catalog sync added to the planned roadmap; no online services implemented. |
 
 ## Technology and principles
 

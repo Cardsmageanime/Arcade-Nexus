@@ -20,8 +20,8 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 | Q4 2027 | Online lobby, arcade netplay adapters and library sync prototype | Account security, public/private rooms, compatible online game launch, invitations and opt-in catalog sync | Planned |
 | Q1 2028 | 3D prototype and personal avatars | Third-person movement, walkable 3D arcade room and basic customizable avatar | Planned |
 | Q2 2028 | 3D interaction and avatar customization | Interactive 3D cabinets, controller support, avatar clothing, hairstyles and accessories | Planned |
-| Q3 2028 | Shared 2D/3D library and social world | Game library, museum, online lobbies and visible multiplayer avatars in compatible shared spaces | Planned |
-| Q4 2028 | 3D release candidate | Performance, accessibility, packaging and hardware testing | Planned |
+| Q3 2028 | Shared social world and personal arcade homes | Game library, museum, online lobbies, visible multiplayer avatars and personal home prototype | Planned |
+| Q4 2028 | 3D world and home release candidate | Personal home customization, visitor privacy, performance, accessibility, security and packaging tests | Planned |
 
 **Release policy:** 2D remains available when 3D is introduced. The 3D release proceeds only after validation. These milestones supersede the earlier Python/PySide6 desktop-only schedule and January 2027 v1.0 assumption.
 
@@ -34,6 +34,18 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 - Stage the 2028 delivery: Q1 movement/avatar prototype; Q2 customization and cabinet interactions; Q3 shared social world integration; Q4 performance, security and release-candidate testing.
 
 **Status:** Design requirement only; no 3D world, avatar creator or shared-world networking implemented or tested.
+
+## Personal Arcade Homes (planned for 2028)
+
+- Every player can create a customizable personal arcade home, beginning with a starter room and optional expansion.
+- Place and rearrange furniture, lighting, wall/floor themes, arcade cabinets and game-collection displays; support saving and restoring layouts.
+- Show a player's chosen games and collections as metadata/artwork displays, subject to privacy settings and asset permissions. Visitors cannot access the owner's local game files or platform credentials.
+- Invite friends for social visits, shared hangouts and compatible online matches. Actual multiplayer gameplay remains dependent on supported game/emulator integrations.
+- **Private by default**; optional friends-only, invite-only or public discovery settings with access revocation, block/report tools and owner moderation.
+- Store home layouts locally and support opt-in authenticated sync; protect account data and validate user-created content.
+- Target Q3 2028 for a basic home prototype and Q4 2028 for customization, privacy and multiplayer visitor testing. These are estimates, not release commitments.
+
+**Status:** Planned only; no home builder, persistence or multiplayer visiting has been implemented.
 
 ## Gaming History Museum (planned)
 

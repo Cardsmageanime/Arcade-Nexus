@@ -17,7 +17,7 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 | Dec 2026–Jan 2027 | v0.2 2D expansion | Emulator configuration, game collections, artwork and favorites | Planned |
 | Q1–Q2 2027 | v0.3 2D world and museum prototype | Multiple themed rooms, controller navigation, NES-first exhibits and localization framework | Planned |
 | Q3 2027 | My Games Lobby and multilingual museum expansion | Library discovery, Windows testing, chronological console halls, sourced sales displays and translated exhibits | Planned |
-| Q4 2027 | Online lobby and library sync prototype | Account security, public/private rooms, invitations, presence and opt-in game library metadata sync | Planned |
+| Q4 2027 | Online lobby, arcade netplay adapters and library sync prototype | Account security, public/private rooms, compatible online game launch, invitations and opt-in catalog sync | Planned |
 | Q1 2028 | 3D prototype | Third-person avatar and walkable 3D arcade room | Planned |
 | Q2 2028 | 3D interaction | Interactive 3D cabinets, navigation and controller support | Planned |
 | Q3 2028 | Shared 2D/3D library and lobbies | Game library, launch functionality, settings and compatible online lobby access in both modes | Planned |
@@ -71,6 +71,17 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 - A lobby is not an emulator or netcode engine: launching a game together does not itself provide multiplayer to unsupported titles.
 
 **Status:** Concept approved for planning only. No lobby server, authentication or netplay integration has been implemented or tested.
+
+## Online arcade gameplay (planned)
+
+- Interactive arcade cabinets may offer Single Player, Online Versus, Public Match, Private Match, Spectate, Rematch and Game History **only when the selected game and integration actually support each action**.
+- Example use case: Marvel vs. Capcom fighting games. The particular arcade version, emulator/core, networking method, rights and game ownership requirements must be checked before enabling online play.
+- Use existing authorized game networking or compatible emulator netplay integrations (potentially Fightcade/FBNeo or RetroArch where supported); Arcade Nexus does not create universal netcode or grant game licenses.
+- Matchmaking/lobby coordination is separate from actual game networking. Check game/core versions, ROM compatibility where applicable, controller mapping and connection requirements before a match.
+- Preserve local/offline play. Apply account security, moderation and privacy controls to online rooms. Never advertise a mode as supported until it passes real multiplayer testing.
+- Reuse the same game-specific online capability metadata and lobby backend in the future 3D arcade.
+
+**Status:** Planned only; no netplay adapters or online matches implemented or verified.
 
 ## Development reviews
 

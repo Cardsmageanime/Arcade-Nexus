@@ -35,17 +35,17 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 
 **Status:** Design requirement only; no 3D world, avatar creator or shared-world networking implemented or tested.
 
-## Personal Arcade Homes (planned for 2028)
+## Home Space — Private Gaming With Friends (planned for 2028)
 
-- Every player can create a customizable personal arcade home, beginning with a starter room and optional expansion.
+- Every player can create a customizable **Home Space**: their own personal arcade dedicated to private gaming sessions and social time with approved friends, beginning with a starter room and optional expansion.
 - Place and rearrange furniture, lighting, wall/floor themes, arcade cabinets and game-collection displays; support saving and restoring layouts.
 - Show a player's chosen games and collections as metadata/artwork displays, subject to privacy settings and asset permissions. Visitors cannot access the owner's local game files or platform credentials.
-- Invite friends for social visits, shared hangouts and compatible online matches. Actual multiplayer gameplay remains dependent on supported game/emulator integrations.
-- **Friends-only by default**: only mutually approved friends may visit. Owners can change to private (only owner), invite-only, or public discovery. Provide access revocation, block/report tools, owner moderation, and a clear privacy choice during onboarding. Never automatically expose a new home to strangers.
+- The primary Home Space workflow is **host a private gaming session**: invite approved friends, gather as avatars, choose a compatible game/cabinet, enter a private lobby, launch supported netplay and return to the home after the session. Actual multiplayer gameplay remains dependent on supported game/emulator integrations.
+- **Friends-only by default**: only approved friends may visit a Home Space. Owners can change to private (only owner), invite-only, or public discovery; however, gaming sessions started inside the Home Space are **private by default**, requiring an explicit host invitation or approval even if home discovery is public. Include room locks, kick/block/report, access revocation, and host moderation. Never automatically expose a new home to strangers.
 - Store home layouts locally and support opt-in authenticated sync; protect account data and validate user-created content.
 - Target Q3 2028 for a basic home prototype and Q4 2028 for customization, privacy and multiplayer visitor testing. These are estimates, not release commitments.
 
-**Status:** Planned only; no home builder, persistence or multiplayer visiting has been implemented.
+**Status:** Planned only; no Home Space builder, private session hosting, persistence or multiplayer visiting has been implemented.
 
 ## Gaming History Museum (planned)
 

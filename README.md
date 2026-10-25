@@ -15,8 +15,8 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 | Oct–Nov 2026 | v0.1 2D foundation | Godot 4 project, side-scrolling room, avatar movement and camera | Planned |
 | Nov–Dec 2026 | v0.1 cabinet interaction | Interactive cabinets, local library and safe game launching | Planned |
 | Dec 2026–Jan 2027 | v0.2 2D expansion | Emulator configuration, game collections, artwork and favorites | Planned |
-| Q1–Q2 2027 | v0.3 2D world and museum prototype | Multiple themed rooms, controller navigation, customization and NES-first history exhibits | Planned |
-| Q3 2027 | My Games Lobby and museum expansion | Library discovery, Windows testing, chronological console halls and sourced top-selling game displays | Planned |
+| Q1–Q2 2027 | v0.3 2D world and museum prototype | Multiple themed rooms, controller navigation, NES-first exhibits and localization framework | Planned |
+| Q3 2027 | My Games Lobby and multilingual museum expansion | Library discovery, Windows testing, chronological console halls, sourced sales displays and translated exhibits | Planned |
 | Q4 2027 | Online lobby and library sync prototype | Account security, public/private rooms, invitations, presence and opt-in game library metadata sync | Planned |
 | Q1 2028 | 3D prototype | Third-person avatar and walkable 3D arcade room | Planned |
 | Q2 2028 | 3D interaction | Interactive 3D cabinets, navigation and controller support | Planned |
@@ -37,6 +37,17 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 - Do not imply manufacturer endorsement; use only assets with appropriate rights.
 
 **Status:** Museum concept and requirements recorded; exhibit database and game scenes are not yet implemented.
+
+## Multilingual support (planned)
+
+- **Scope:** Localize the full Arcade Nexus experience, not just the museum: menus, settings, My Games Lobby, online lobby controls, errors, accessibility text and historical exhibit content.
+- **Initial target languages:** English (source), Spanish, French, German, Portuguese (Brazil), Japanese, Simplified Chinese and Korean. Additional languages can follow with community translation support.
+- **Language selection:** First-run language picker, manual change in settings, and optional system-language detection with English fallback. A language change should not require an online account.
+- **Implementation:** Godot 4 translation resources/CSV or PO catalogs with stable translation keys; separate historical exhibit content from interface strings. Support Unicode fonts, text expansion, localized dates and numbers, and language-specific search where practical.
+- **Quality:** Review translations for accuracy, especially console names, release regions, sales terminology and historical claims. Mark missing translations and fall back gracefully; do not present machine translations as reviewed.
+- **Future readiness:** Plan right-to-left layout and font testing before adding Arabic or other RTL locales. Both 2D and 2028 3D modes should use the same translation resources.
+
+**Status:** Language requirements documented only; translation assets and translated interfaces are not implemented yet.
 
 ## My Games Lobby and reserved libraries (planned)
 

@@ -2,44 +2,50 @@
 
 **Your Games. Your Universe. One Launcher.**
 
-Arcade Nexus is a planned free, open-source universal game launcher for Linux and Windows. Organize and launch PC games, retro games, and emulators in one customizable interface. Planned features include controller support, custom themes, and offline gaming.
+Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade launcher** for Linux Mint first and Windows later. Walk through an arcade world, interact with cabinets representing local PC games and compatible emulators, and launch games you already own. An optional **3D virtual arcade upgrade is planned for 2028**, while retaining the 2D experience.
 
 **Join the project, suggest features through GitHub Issues, and help build the ultimate gaming hub!**
 
-## Development roadmap
+## Development roadmap (2026–2028)
 
-**Planning baseline:** October 25, 2026 (America/Chicago). Dates are targets, not guarantees. Status is updated only after verified work; planned features are not presented as completed.
+**Planning baseline:** October 25, 2026 (America/Chicago). All dates are targets, not guaranteed releases. Only verified commits and tests count as completed work.
 
-| Target week | Milestone | Planned deliverable | Status |
+| Target | Milestone | Planned deliverable | Status |
 | --- | --- | --- | --- |
-| Oct 25–31, 2026 | v0.1 foundation | Python/PySide6 project structure, launcher window | Planned |
-| Nov 1–7, 2026 | v0.1 library | Add/edit/remove games; local persistence | Planned |
-| Nov 8–14, 2026 | v0.1 launch | Run installed games, handle launch errors | Planned |
-| Nov 15–21, 2026 | v0.2 discovery | Detect supported emulators and game folders | Planned |
-| Nov 22–28, 2026 | v0.2 artwork | Artwork, search and favorites | Planned |
-| Nov 29–Dec 5, 2026 | v0.3 customization | Theme settings and layout improvements | Planned |
-| Dec 6–12, 2026 | v0.3 controls | Gamepad navigation and accessibility | Planned |
-| Dec 13–19, 2026 | v0.4 platforms | Steam/GOG/Epic integration research and adapters | Planned |
-| Dec 20–26, 2026 | v0.4 integration | Integration testing and offline behavior | Planned |
-| Dec 27, 2026–Jan 2, 2027 | v1.0 QA | Bug fixing, packaging, documentation | Planned |
-| Jan 3–9, 2027 | v1.0 candidate | Release candidate and Linux Mint testing | Planned |
+| Oct–Nov 2026 | v0.1 2D foundation | Godot 4 project, side-scrolling room, avatar movement and camera | Planned |
+| Nov–Dec 2026 | v0.1 cabinet interaction | Interactive cabinets, local library and safe game launching | Planned |
+| Dec 2026–Jan 2027 | v0.2 2D expansion | Emulator configuration, game collections, artwork and favorites | Planned |
+| Q1–Q2 2027 | v0.3 2D world | Multiple themed arcade rooms, controller navigation, customization | Planned |
+| Q3–Q4 2027 | v0.4 platform support | PC store integration research, Windows support and stability testing | Planned |
+| Q1 2028 | 3D prototype | Third-person avatar and walkable 3D arcade room | Planned |
+| Q2 2028 | 3D interaction | Interactive 3D cabinets, navigation and controller support | Planned |
+| Q3 2028 | Shared 2D/3D library | Game library, launch functionality and settings available in both modes | Planned |
+| Q4 2028 | 3D release candidate | Performance, accessibility, packaging and hardware testing | Planned |
 
-## Weekly development updates
+**Release policy:** 2D remains available when 3D is introduced. The 3D release proceeds only after validation. These milestones supersede the earlier Python/PySide6 desktop-only schedule and January 2027 v1.0 assumption.
 
-**Review cadence:** Sundays, America/Chicago. Every weekly review should update this roadmap with the actual review date/time, completed work backed by commits or tests, in-progress tasks, blockers, next steps, and revised target dates. If nothing changed, say "No verified development changes this week." Do not mark work completed merely because a target date passed.
+## Development reviews
+
+**Requested cadence:** Monthly, first Sunday of each month, America/Chicago. Automatic scheduling is **not active** because the scheduled-task limit was reached. At each review, record the actual date/time, verified commits and tests, work in progress, blockers, next steps, and revised estimates. If no development occurred, report that plainly.
 
 ### Update log
 
-| Reviewed (America/Chicago) | Summary |
+| Date (America/Chicago) | Verified update |
 | --- | --- |
-| 2026-10-25 | Roadmap established; development milestones remain planned. |
+| 2026-10-25 | Roadmap revised for Godot-based 2D side-scrolling virtual arcade and planned 2028 3D upgrade; implementation remains planned. |
 
-## Technology
+## Technology and principles
 
-- Python 3 and PySide6 desktop interface
-- Local game library; offline-first launch functionality
-- Linux Mint first, Windows later
-- Existing emulators are launched, not reimplemented
+- Godot 4 with GDScript for the 2D world and future 3D scenes
+- Shared local game library and safe launcher backend for both modes
+- Offline-first, keyboard and controller navigation
+- Linux Mint first; Windows later
+- Arcade zones can organize games by system without implying official console manufacturer partnerships
+- No bundled copyrighted ROMs, proprietary firmware, or newly implemented emulators
+
+## Detailed design
+
+See [Side-Scrolling Arcade Plan](docs/SIDE_SCROLLING_ARCADE_PLAN.md), including the 2028 3D World Upgrade.
 
 ## Contributing
 

@@ -34,3 +34,15 @@ Arcade Nexus is an offline-first, side-scrolling 2D virtual arcade launcher for 
 The previous Python/PySide6 desktop-only timeline is superseded by this Godot-based 2D direction. Estimated first prototype: 2–4 weeks of active development; fuller initial release: approximately 3–5 months, subject to testing. Review monthly, recording actual timestamp (America/Chicago), verified commits/tests, blockers, and revised milestones. Scheduling an automatic monthly review requires a free task slot.
 
 **Status:** Specification recorded; prototype code and testing not yet completed.
+
+## 2028 — 3D World Upgrade (planned)
+**Decision recorded:** October 25, 2026. Preserve the playable 2D side-scrolling experience as a selectable mode; introduce a separate explorable 3D arcade using Godot 4's 3D scene capabilities and the same local game-library/launch backend.
+
+| Target | Proposed milestone | Acceptance goal |
+| --- | --- | --- |
+| 2028 Q1 | 3D prototype | Third-person avatar movement and one walkable arcade room |
+| 2028 Q2 | Interactive world | Usable 3D cabinets, navigation and controller support |
+| 2028 Q3 | Shared launcher integration | Existing game libraries, launch commands, themes and settings work in 3D |
+| 2028 Q4 | 3D release candidate | Accessibility, performance, packaging and hardware testing; stable release only after passing tests |
+
+3D features are **not yet implemented**. The schedule is aspirational and should be revised after 2D milestones and performance testing. Avoid proprietary assets and do not imply platform-holder endorsement.

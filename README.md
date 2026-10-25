@@ -18,12 +18,22 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 | Q1–Q2 2027 | v0.3 2D world and museum prototype | Multiple themed rooms, controller navigation, NES-first exhibits and localization framework | Planned |
 | Q3 2027 | My Games Lobby and multilingual museum expansion | Library discovery, Windows testing, chronological console halls, sourced sales displays and translated exhibits | Planned |
 | Q4 2027 | Online lobby, arcade netplay adapters and library sync prototype | Account security, public/private rooms, compatible online game launch, invitations and opt-in catalog sync | Planned |
-| Q1 2028 | 3D prototype | Third-person avatar and walkable 3D arcade room | Planned |
-| Q2 2028 | 3D interaction | Interactive 3D cabinets, navigation and controller support | Planned |
-| Q3 2028 | Shared 2D/3D library and lobbies | Game library, launch functionality, settings and compatible online lobby access in both modes | Planned |
+| Q1 2028 | 3D prototype and personal avatars | Third-person movement, walkable 3D arcade room and basic customizable avatar | Planned |
+| Q2 2028 | 3D interaction and avatar customization | Interactive 3D cabinets, controller support, avatar clothing, hairstyles and accessories | Planned |
+| Q3 2028 | Shared 2D/3D library and social world | Game library, museum, online lobbies and visible multiplayer avatars in compatible shared spaces | Planned |
 | Q4 2028 | 3D release candidate | Performance, accessibility, packaging and hardware testing | Planned |
 
 **Release policy:** 2D remains available when 3D is introduced. The 3D release proceeds only after validation. These milestones supersede the earlier Python/PySide6 desktop-only schedule and January 2027 v1.0 assumption.
+
+## 2028 3D Virtual Arcade World and Avatars (planned)
+
+- Each player can create and customize a personal 3D avatar (appearance, hairstyles, clothing, colors and accessories), with settings saved locally and optionally synced to an authenticated account.
+- Explore walkable 3D arcade halls, a gaming history museum, and a personal My Games Lobby; interact with cabinets to launch owned games or compatible online sessions.
+- Support public and private shared social spaces with visible player avatars, friends and invitations; implement authoritative networking, privacy settings, moderation and scalable player limits before release.
+- Reuse the 2D launcher backend, museum records, translations and account/lobby services. **Keep 2D mode playable** rather than replacing it.
+- Stage the 2028 delivery: Q1 movement/avatar prototype; Q2 customization and cabinet interactions; Q3 shared social world integration; Q4 performance, security and release-candidate testing.
+
+**Status:** Design requirement only; no 3D world, avatar creator or shared-world networking implemented or tested.
 
 ## Gaming History Museum (planned)
 

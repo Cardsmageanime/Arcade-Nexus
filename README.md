@@ -16,13 +16,26 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 | Nov–Dec 2026 | v0.1 cabinet interaction | Interactive cabinets, local library and safe game launching | Planned |
 | Dec 2026–Jan 2027 | v0.2 2D expansion | Emulator configuration, game collections, artwork and favorites | Planned |
 | Q1–Q2 2027 | v0.3 2D world | Multiple themed arcade rooms, controller navigation, customization | Planned |
-| Q3–Q4 2027 | v0.4 platform support | PC store integration research, Windows support and stability testing | Planned |
+| Q3 2027 | v0.4 platform support | PC store integration research, Windows support and stability testing | Planned |
+| Q4 2027 | Online lobby prototype | Account security, public/private rooms, invitations and basic presence | Planned |
 | Q1 2028 | 3D prototype | Third-person avatar and walkable 3D arcade room | Planned |
 | Q2 2028 | 3D interaction | Interactive 3D cabinets, navigation and controller support | Planned |
-| Q3 2028 | Shared 2D/3D library | Game library, launch functionality and settings available in both modes | Planned |
+| Q3 2028 | Shared 2D/3D library and lobbies | Game library, launch functionality, settings and compatible online lobby access in both modes | Planned |
 | Q4 2028 | 3D release candidate | Performance, accessibility, packaging and hardware testing | Planned |
 
 **Release policy:** 2D remains available when 3D is introduced. The 3D release proceeds only after validation. These milestones supersede the earlier Python/PySide6 desktop-only schedule and January 2027 v1.0 assumption.
+
+## Planned online multiplayer lobbies
+
+- Public, private and friends-only rooms, invitations, presence and room codes.
+- Optional social arcade hub with visible player avatars; spectator rooms only where game/emulator streaming or spectating is supported.
+- Host moderation: room locks, kick/mute/report/block controls.
+- Cross-platform lobby discovery for Linux/Windows when supported; actual netplay compatibility depends on the game/emulator and matching versions.
+- Security: authenticated online accounts, secure sessions, rate limiting, abuse reporting, and privacy controls. Never expose player IP addresses in the UI.
+- Offline single-player remains fully functional without a login.
+- A lobby is not an emulator or netcode engine: launching a game together does not itself provide multiplayer to unsupported titles.
+
+**Status:** Concept approved for planning only. No lobby server, authentication or netplay integration has been implemented or tested.
 
 ## Development reviews
 
@@ -32,7 +45,7 @@ Arcade Nexus is a planned free, open-source **2D side-scrolling virtual arcade l
 
 | Date (America/Chicago) | Verified update |
 | --- | --- |
-| 2026-10-25 | Roadmap revised for Godot-based 2D side-scrolling virtual arcade and planned 2028 3D upgrade; implementation remains planned. |
+| 2026-10-25 | Roadmap revised for Godot-based 2D side-scrolling virtual arcade and planned 2028 3D upgrade; implementation remains planned. Online multiplayer lobby features added to the planned roadmap; no online services implemented. |
 
 ## Technology and principles
 

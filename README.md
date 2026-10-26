@@ -1,3 +1,44 @@
+# Nexus Relay
+
+**One connected gaming platform — Arcade World + Retro Relay Online.**
+
+> **Unified GitHub project page.** Nexus Relay combines the previously separate **Arcade Nexus** and **RetroRelay** product plans into one experience. Their existing source repositories remain preserved and linked below until code integration, compatibility tests and history preservation are complete. This page does **not** claim the programs are already merged or shipped.
+
+## One platform, connected components
+
+| Part of Nexus Relay | Purpose | Development source |
+| --- | --- | --- |
+| **Arcade World** | Walkable 2D arcade, cabinets, a future 3D upgrade, avatars and friends-only personal arcade homes | This repository: `Cardsmageanime/Arcade-Nexus` |
+| **Retro Relay Online** | Windows/Linux PC client, accounts, emulator matching, public/private lobbies and multiplayer coordination | [RetroRelay source](https://github.com/Cardsmageanime/RetroRelay) |
+| **Nexus Relay Systems** | ARM SD/USB boot project for compatible boxes/sticks; offline library, controllers, local saves and RetroArch support | [ARM foundation branch](https://github.com/Cardsmageanime/RetroVerse/tree/milestone/arm64-kernel-build-20261023) |
+| **Gaming History Museum** | Research-backed interactive exhibits, console eras, internationalization | This repository |
+| **Nexus Relay Store** | Planned authorized publisher/partner arcade-game marketplace; sales only after licensing, rights and compliance work | Planned; **not live** |
+
+### Main experiences
+
+- **Home / Arcade World:** navigate original arcade environments and launch legitimately obtained games through compatible tools.
+- **Library:** offline-first collection and local save data; no account or connection required for solo play.
+- **Museum:** historical preservation and contextual exhibits, with multilingual support and sources.
+- **Online / Friends / Creator / Spectator:** optional social features, safe matchmaking, and compatible netplay; cheats disabled in every multiplayer context.
+- **Your Arcade Home:** friends-only access by default; private sessions require invitation or approval.
+- **Store:** partners may list games only with demonstrated rights and authorization. No third-party ROMs, images or logos are assumed licensed.
+
+## Project status and development rules
+
+**Concept integration established; codebases not yet physically consolidated.** The original projects have different target runtimes and dependencies (Arcade Nexus virtual arcade; RetroRelay desktop networking; ARM operating system). Do not mix build scripts or erase existing projects without a migration and regression plan.
+
+**Original assets only:** research and external examples may inform requirements, but do not reproduce third-party art or branding. Screenshots, avatars and in-game assets must be owned or properly licensed.
+
+**Phases 1–5 are the active scope. Phase 6 is reserved** for the owner and ChatGPT to plan together; no public release in scope without hardware, security, publisher and acceptance checks.
+
+**Biweekly check-ins:** the original ARM development schedule remains in the [systems repository](https://github.com/Cardsmageanime/RetroVerse/blob/milestone/arm64-kernel-build-20261023/docs/RETROVERSE_BIWEEKLY_DEVELOPMENT_SCHEDULE_2026_2028.md), pending consolidation into one tested Nexus Relay master plan.
+
+## Archived project description and detailed Arcade World plan
+
+The following historical content is retained for engineering continuity. References to "Arcade Nexus" below denote this module of **Nexus Relay**, not a competing product.
+
+---
+
 # Arcade Nexus
 
 **Your Games. Your Universe. One Launcher.**
